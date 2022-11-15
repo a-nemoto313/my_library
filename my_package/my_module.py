@@ -1,3 +1,5 @@
+import datetime
+
 from __version__ import __version__
 
 
@@ -7,3 +9,4 @@ class MyClass:
 
     def my_func(self):
         print(f"This library is {__version__}")
+        print(datetime.datetime.now())

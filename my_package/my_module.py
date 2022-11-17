@@ -1,6 +1,6 @@
 import datetime
 
-from __version__ import __version__
+from my_package.__version__ import __version__
 
 
 class MyClass:
